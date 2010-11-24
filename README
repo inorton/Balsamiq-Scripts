@@ -1,0 +1,19 @@
+Balsamiq Mockups Scripts
+--------------------------
+
+This is a (very) small collection (1) of scripts to handle batch
+operations (eg, png export) from Balsamiq Mockups when running
+on linux (and perhaps MacOSX).
+
+Current Scripts:
+
+batch-png-export.pl - inb@ncipher.com
+ Export All Mockups to PNG files, ideal for a cron job
+ Requires:-
+ + vncserver
+ + perl
+ + bmml.py (optional for html generation - http://vi.to/bmml/)
+   bmml.py does not support the "symbols" feature and is no 
+   longer supported by it's authors.
+
+
